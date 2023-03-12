@@ -9,16 +9,16 @@ function Navbar() {
       <div>
         <ul className="menu" >
           <li>
-            <Link className="link" to="/">HOME</Link>
+            <Link className="link" to="/">Inicio</Link>
           </li>
           <li>
-            <Link className="link" to="/about">ABOUT ME</Link>
+            <Link className="link" to="/SobreNos">Sobre Nós</Link>
           </li>
           <li>
-            <Link className="link" to="/resume">RESUME</Link>
+            <Link className="link" to="/Servicos">Serviços</Link>
           </li>
           <li>
-            <Link className="link" to="/portfolio">PORTFOLIO</Link>
+            <Link className="link" to="/Contactos">Contactos</Link>
           </li>
           
         </ul>
