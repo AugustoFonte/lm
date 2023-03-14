@@ -1,6 +1,6 @@
 import React from "react";
 import MainLayout from "../Layouts/MainLayout";
-import banner from "../Images/banner.jpg"
+import banner from "../Assets/banner.jpg"
 
 
 

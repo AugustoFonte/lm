@@ -18,6 +18,9 @@ function Navbar() {
             <Link className="link" to="/Servicos">Serviços</Link>
           </li>
           <li>
+            <Link className="link" to="/Portfolio">Portfolio</Link>
+          </li>
+          <li>
             <Link className="link" to="/Contactos">Contactos</Link>
           </li>
           
