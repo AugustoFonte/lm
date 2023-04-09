@@ -1,20 +1,23 @@
 import React from "react";
-import logo from "../Assets/logo.jpg"
-
-
 
 function SobreNos() {
   return (
-    <div>
-        <div>
-            <img src={logo} alt= "Logo" />
+    <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+            <div className="flex flex-col lg:flex-row justify-between gap-8">
+                <div className="w-full lg:w-5/12 flex flex-col justify-center">
+                    <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">Sobre Nós</h1>
+                    <p className="font-normal text-base leading-6 text-gray-600 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quod. Expedita odio incidunt hic reprehenderit commodi est at beatae libero culpa delectus, quos quaerat nesciunt nulla numquam placeat, esse harum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse distinctio inventore itaque enim recusandae obcaecati totam dolorem veniam! Incidunt, consectetur delectus cumque eum ipsa totam fugiat ad in libero suscipit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eveniet temporibus, autem animi dignissimos qui omnis enim sapiente nihil laborum perspiciatis atque consequuntur repellat vitae, illum voluptatibus totam a molestiae?</p>
+                </div>
+                <div className="w-full lg:w-8/12 ">
+                    <img className="w-full h-full" src="https://i.ibb.co/FhgPJt8/Rectangle-116.png" alt="A group of People" />
+                </div>
+            </div>
+
+            
         </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, minus nemo cum repellendus adipisci consectetur nulla quo harum iure asperiores tempore quaerat quisquam tenetur facere qui, ad aspernatur id quae!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus obcaecati, cum, nulla quos quas amet illo nisi officia, asperiores ex eveniet quibusdam sequi eaque voluptatum expedita esse dolor sint!</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, beatae at quaerat vel quae error laboriosam, dicta ex labore dolorem ipsam eius fugiat magnam obcaecati necessitatibus quam! Nostrum, minima ex!</p>
-        </div>
-    </div>
+
 
   );
 }
