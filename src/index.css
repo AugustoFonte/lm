@@ -172,3 +172,7 @@ table {
     width: 100%;
   }
 }
+
+body {
+  background-color: #f9f7f7;
+}
