@@ -13,7 +13,7 @@ function OurServices() {
 		<div className="flex flex-col items-center p-4">
 			
 			<h3 className="my-3 text-3xl font-semibold font-display">Casamentos</h3>
-			<div className="space-y-1 leading-tight font-display">
+			<div className="space-y-1 leading-tight font-text">
 				<p>Nosso serviço de fotografia de casamento é cuidadosamente planejado para atender às necessidades e expectativas de cada casal.</p>
 				<p>Trabalhamos com um olhar sensível e criativo, capturando imagens que refletem a personalidade e o estilo do casal, bem como a beleza do cenário e dos detalhes.</p>
 				
@@ -22,7 +22,7 @@ function OurServices() {
 		<div className="flex flex-col items-center p-4">
 			
 			<h3 className="my-3 text-3xl font-semibold font-display">Batizados</h3>
-			<div className="space-y-1 leading-tight font-display">
+			<div className="space-y-1 leading-tight font-text">
 				<p>O batizado é um momento especial e significativo na vida de uma criança e de sua família.</p>
 				<p>Oferecemos uma ampla variedade de opções para as famílias escolherem, desde álbuns personalizados até sessões fotográficas pré-batizado ou pós-batizado.</p>
 				
@@ -31,7 +31,7 @@ function OurServices() {
 		<div className="flex flex-col items-center p-4">
 			
 			<h3 className="my-3 text-3xl font-semibold font-display">Bodas</h3>
-			<div className="space-y-1 leading-tight font-display">
+			<div className="space-y-1 leading-tight font-text">
 				<p>As bodas de casamento são um momento especial e emocionante na vida de um casal. É um dia em que eles renovam seus votos e celebram seu amor e compromisso um pelo outro.</p>
 				<p> Estamos aqui para ajudá-los a lembrar este dia especial.</p>
 				
