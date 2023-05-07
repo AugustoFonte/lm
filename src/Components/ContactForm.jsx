@@ -9,14 +9,20 @@ function ContactForm() {
       <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
         <div className="mb-12 max-w-[570px] lg:mb-0">
           <h2
-            className="text-dark mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]"
+            className="text-dark mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px] font-display"
           >
             Fale Connosco
           </h2>
-          <p className="text-body-color mb-9 text-base leading-relaxed">
-            Gostaria de saber mais informações sobre os nossos trabalhos?
-            Fale connosco!
+          <p className="text-body-color text-base leading-relaxed font-display">
+            Gostaria de saber mais informações sobre os nossos trabalhos? 
+            
           </p>
+          <p className="text-body-color mb-9 text-base leading-relaxed font-display">
+            
+            Fale connosco!
+            
+          </p>
+          
           <div className="mb-8 flex w-full max-w-[370px]">
             <div
               className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
@@ -33,8 +39,8 @@ function ContactForm() {
               </svg>
             </div>
             <div className="w-full">
-              <h4 className="text-dark mb-1 text-xl font-bold">Nossa Localização</h4>
-              <p className="text-body-color text-base">
+              <h4 className="text-dark mb-1 text-xl font-bold font-display">Nossa Localização</h4>
+              <p className="text-body-color text-base font-display">
               Tv. do Cruzeiro O, 4750-655 Roriz Barcelos
               </p>
             </div>
@@ -61,9 +67,9 @@ function ContactForm() {
               </svg>
             </div>
             <div className="w-full">
-              <h4 className="text-dark mb-1 text-xl font-bold">Telefone</h4>
-              <p className="text-body-color text-base">(+351)XXXXXXXXX</p>
-              <p className="text-body-color text-base">Rede Movel Nacional</p>
+              <h4 className="text-dark mb-1 text-xl font-bold font-display">Telefone</h4>
+              <p className="text-body-color text-base font-display">(+351)962 701 086</p>
+              <p className="text-body-color text-base font-display">Rede Movel Nacional</p>
             </div>
           </div>
           <div className="mb-8 flex w-full max-w-[370px]">
@@ -82,8 +88,8 @@ function ContactForm() {
               </svg>
             </div>
             <div className="w-full">
-              <h4 className="text-dark mb-1 text-xl font-bold">Email</h4>
-              <p className="text-body-color text-base">Email@email.com</p>
+              <h4 className="text-dark mb-1 text-xl font-bold font-display">Email</h4>
+              <p className="text-body-color text-base font-display">Email@email.com</p>
             </div>
           </div>
         </div>

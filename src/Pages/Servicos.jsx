@@ -14,6 +14,7 @@ function Contactos() {
       <div>
         <ImageGrid />
       </div>
+      <div className="py-20"></div>
       
     </MainLayout>
   );
