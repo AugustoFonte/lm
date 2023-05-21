@@ -89,7 +89,7 @@ function ContactForm() {
             </div>
             <div className="w-full">
               <h4 className="text-dark mb-1 text-xl font-bold font-display">Email</h4>
-              <p className="text-body-color text-base font-display">Email@email.com</p>
+              <p className="text-body-color text-base font-display">fotoelieme@hotmail.com</p>
             </div>
           </div>
         </div>

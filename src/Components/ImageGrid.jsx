@@ -1,6 +1,10 @@
 import React from "react";
-
-
+import img1 from "../Assets/1.webp"
+import img2 from "../Assets/2.webp"
+import img3 from "../Assets/3.jpg"
+import img4 from "../Assets/4.webp"
+import img5 from "../Assets/5.jpg"
+import img6 from "../Assets/6.webp"
 
 function ImageGrid() {
   return (
@@ -11,19 +15,19 @@ function ImageGrid() {
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp" />
+          src={img1} />
       </div>
       <div className="w-1/2 p-1 md:p-2">
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
+          src={img2} />
       </div>
       <div class="w-full p-1 md:p-2">
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" />
+          src={img3} />
       </div>
     </div>
     <div className="flex w-1/2 flex-wrap">
@@ -31,19 +35,19 @@ function ImageGrid() {
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp" />
+          src={img4} />
       </div>
       <div className="w-1/2 p-1 md:p-2">
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp" />
+          src={img5} />
       </div>
       <div className="w-1/2 p-1 md:p-2">
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp" />
+          src={img6} />
       </div>
     </div>
   </div>
